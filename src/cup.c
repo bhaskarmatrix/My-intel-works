@@ -215,6 +215,8 @@ int main()
     fclose(output);
 }
 
+printf("This is the CUP Language");
+
 //////////////////////////////
 
 // multiple file support
