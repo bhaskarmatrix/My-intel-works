@@ -40,3 +40,8 @@ analyzer.analyze(ast);
 // console.dir(ast, { depth: null });
 const c = cgen.generate(ast);
 fs.writeFileSync('tests/cup/bin/out.c', c);
+
+
+let name = function name{
+this.name = console.log('This is the End of line');
+}
