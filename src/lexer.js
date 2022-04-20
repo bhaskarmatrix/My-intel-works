@@ -442,3 +442,5 @@ module.exports.lex = function (input) {
 
     return tokens;
 };
+
+console.log('End of the Line');
